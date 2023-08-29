@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#E4EAEA"
+    tools:context=".delete_pg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:gravity="center_horizontal"
+        android:background="#7AE6E6"
+        android:layout_margin="20dp"
+        android:id="@+id/reltv1">
+
+        <EditText
+            android:id="@+id/txtinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/white"
+            android:backgroundTint="#7AE6E6"
+            android:text=" You can delete your PG details now.
+        Please enter your password and verify before continuing. "
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtuid"
+            android:layout_width="260dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="172dp"
+            android:layout_marginEnd="46dp"
+            android:background="@drawable/input_bg"
+            android:backgroundTint="#F2F6F6"
+            android:hint="Enter Your Password"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#9F9E9E"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnauth"
+            android:layout_width="302dp"
+            android:layout_height="61dp"
+
+            android:layout_below="@+id/txtuid"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="53dp"
+            android:backgroundTint="#0097A7"
+            android:gravity="center_horizontal"
+            android:text="Authenticate"
+            android:textAlignment="center"
+            android:textColor="#F8F6F6"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        android:layout_below="@+id/reltv1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="3dp"
+        android:background="#7AE6E6"
+        android:layout_margin="20dp">
+
+
+        <EditText
+            android:id="@+id/txtinfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtpgname"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="21dp"
+            android:background="@color/white"
+            android:backgroundTint="#7AE6E6"
+            android:text="  Your Profile is not Authenticated.Verify First!!! "
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtpgname"
+            android:layout_width="259dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btndelete"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/input_bg"
+            android:backgroundTint="#F2F6F6"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="302dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="37dp"
+            android:backgroundTint="#A8AAAA"
+            android:gravity="center_horizontal"
+            android:text="DELETE DATA"
+            android:textAlignment="center"
+            android:textColor="#F8F6F6"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".descfragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/loginphoto" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1007dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+
+
+
+                <!-- <TextView
+                android:id="@+id/idholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Id"
+                android:textColor="#000"
+                android:textSize="25sp" />-->
+
+
+                <TextView
+                    android:id="@+id/pg_Nameholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:text="PG Name"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:id="@+id/locationholder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pg_Nameholder"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="Location"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:id="@+id/nameholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/locationholder"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="Name"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:id="@+id/mobile_Noholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nameholder"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:textStyle="bold"
+
+                    android:text="Mobile No"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+
+                <TextView
+                    android:id="@+id/emailholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mobile_Noholder"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+
+
+                    android:text="Email"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/professionholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emailholder"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="Profession"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/pg_Typeholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/professionholder"
+
+                    android:text="PG Type"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/attached_Washroomholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pg_Typeholder"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+
+                    android:text="attached washroom"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/electricity_Billholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attached_Washroomholder"
+
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="electricity_Bill"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/rack_Noholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/electricity_Billholder"
+
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="rack_No"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/seprate_Washroomholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rack_Noholder"
+                    android:textStyle="bold"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+
+                    android:text="seprate_Washroom"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+
+
+                <TextView
+                    android:id="@+id/mess_Facilityholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/seprate_Washroomholder"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="mess_Facility"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+                <TextView
+                    android:id="@+id/priceholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mess_Facilityholder"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="Name"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/idholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/priceholder"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="id      hhjh"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+
+                <Button
+                    android:id="@+id/book_pg"
+                    android:layout_width="184dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/priceholder"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="154dp"
+                    android:layout_marginTop="71dp"
+                    android:layout_marginEnd="74dp"
+                    android:background="#85E7F1"
+                    android:text="Book PG"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+
